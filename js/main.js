@@ -23,7 +23,7 @@
 			scrollTop: $(this.hash).offset().top
 		}, 600);
 	});
-	$("#accordion-btn").on('click', function(e) {
+	$(".smooth-scroll").on('click', function(e) {
 		e.preventDefault();
 		var hash = this.hash;
 		$('html, body').animate({
