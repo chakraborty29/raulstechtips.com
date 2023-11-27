@@ -7,6 +7,13 @@
 		$("#preloader").delay(600).fadeOut();
 	});
 
+	// 50% Off Pop up
+	$(window).on('load', function() {
+		$('#myModal').modal({
+			show: true
+		});
+	});
+
 	///////////////////////////
 	// Scrollspy
 	$('body').scrollspy({
